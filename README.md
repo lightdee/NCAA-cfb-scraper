@@ -1,5 +1,6 @@
 NCAA College Football Scraper
 ==============================
+If you just want the data (1998-2018), just grab cfb-clean.csv or cfb-elo.csv (if you also want ELO data).
 
 To Scrape and clean college football scores for as far back as 19XX, do the following:
 You need the following metadata files:
@@ -24,3 +25,5 @@ $ wc -l cfb-clean.csv
 
 Optional: Calculate ELO for teams/games:
 $ ./calc-elo.py cfb-clean.csv cfb-elo.csv
+
+Many thanks to Jim Howell, http://www.jhowell.net/ who collected and maintains the data.  Also thanks to this project https://github.com/fivethirtyeight/nfl-elo-game, which code I modified to generate the ELO scores.
