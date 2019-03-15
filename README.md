@@ -26,4 +26,5 @@ $ wc -l cfb-clean.csv
 Optional: Calculate ELO for teams/games:
 $ ./calc-elo.py cfb-clean.csv cfb-elo.csv
 
-Many thanks to Jim Howell, http://www.jhowell.net/ who collected and maintains the data.  Also thanks to this project https://github.com/fivethirtyeight/nfl-elo-game, which code I modified to generate the ELO scores.
+Many thanks to Jim Howell, http://www.jhowell.net/ who collected and maintains the data.  
+Also thanks to this project https://github.com/fivethirtyeight/nfl-elo-game, which code I modified to generate the ELO scores.
